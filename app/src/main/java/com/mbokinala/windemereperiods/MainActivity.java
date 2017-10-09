@@ -91,9 +91,9 @@ public class MainActivity extends AppCompatActivity {
         if(minutesRemaining >= 0) {
             minutesRemainingTextView.setText(""+minutesRemaining);
         } else {
-            minutesRemainingTextView.setText("");
             TextView t = (TextView) findViewById(R.id.text2);
             t.setText("");
+            minutesRemainingTextView.setText("");
         }
     }
 
